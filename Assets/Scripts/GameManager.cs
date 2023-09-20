@@ -35,6 +35,7 @@ namespace IMTC505.starter.SampleGame
         private float _points;
         private float _maxPoints;
 
+        
         // Start is called before the first frame update
         void Start()
         {
@@ -55,6 +56,7 @@ namespace IMTC505.starter.SampleGame
         /// </summary>
         private void OnPointScored(GamePoint gamePoint)
         {
+            
             _points += gamePoint.points;
             Destroy(gamePoint.gameObject);
         }
@@ -77,8 +79,9 @@ namespace IMTC505.starter.SampleGame
                         foreach (GamePoint gamePoint in FindObjectsOfType<GamePoint>())
                         {
                             gamePoint.OnTriggerEnterAction += OnPointScored;
-                            _maxPoints += gamePoint.points;
+                            _maxPoints =100;
                         }
+                        
                     }
                     break;
                 case GameState.started:
