@@ -1,53 +1,37 @@
-# Unity Game Project - README
+# IMTC 505 LAB 1 Assignment Criteria - README
 
-Welcome to our Unity game project! This README will provide an overview of the key components and features of the project, along with visual demonstrations.
+These are the following criteria or points which are full-field for the LAB 1 assignment.
 
-## Imported Assets
+## Criteria 1: Imported Assets from the mention .unitypackage
 
-In this section, we list the assets imported for our game. We've imported a variety of assets, including 3D models, textures, and audio files, to enhance the gameplay and visual experience.
+![Alt Text]([https://example.com/image-url.jpg](https://res.cloudinary.com/dolt8nnzc/image/upload/v1695172810/image1_obbxxi.png))
 
-![Imported Assets](images/imported-assets.png)
-
-## Scene Setup
-
-Our game scene is meticulously designed and includes essential GameObjects. We have a GameManager prefab that controls the game flow and at least 10 GameObjects with GamePoint components, which serve as the main collectibles or objectives within the game.
+## Criteria 2: Scene Setup
 
 ![Scene Setup](images/scene-setup.png)
 
-## Additional Assets
-
-To make our game more visually appealing and engaging, we've integrated additional assets. These assets come from various sources, including the Unity Asset Store and custom models/images. We have incorporated a minimum of three additional assets to enrich the gameplay environment.
+## Criteria 3: Additional Assets
 
 ![Additional Assets](images/additional-assets.png)
 
-## Behaviors
-
-We've implemented diverse behaviors to create an interactive and dynamic game world. At least two different behaviors have been added or modified through scripts to enhance gameplay and interactivity.
+## Criteria 4: Behaviors
 
 ![Behaviors](images/behaviors.png)
 
-## Object Behaviors
-
-Every GamePoint object in our game has unique behaviors attached to them, making collecting points a challenging and rewarding experience for players. These behaviors add depth to the gameplay.
+## Criteria 5: Object Behaviors
 
 ![Object Behaviors](images/object-behaviors.png)
 
-## Environment Behaviors
-
-Not only are the point objects interactive, but we've also added behaviors to at least three objects in the game environment. These interactive elements make the game world come alive and offer new challenges to players.
+## Criteria 6: Environment Behaviors
 
 ![Environment Behaviors](images/environment-behaviors.png)
 
-## Documentation
-
-We understand the importance of clear and concise documentation. We've documented all added behaviors, providing detailed explanations and instructions for developers and contributors.
+## Criteria 7: Documentation
 
 ![Documentation](images/documentation.png)
 
-## Uploading Instructions
-
-To upload and contribute to our project, follow these instructions carefully. We've streamlined the process to ensure a smooth collaboration experience.
+## Criteria 8: Upload Instructions
 
 ![Upload Instructions](images/upload-instructions.png)
 
-Thank you for taking the time to explore our Unity game project. We hope you enjoy playing and contributing to it as much as we did developing it!
+Thank you for reviewing our Unity game project. Each criterion is documented with visual evidence to showcase our achievements and adherence to the assignment requirements.
