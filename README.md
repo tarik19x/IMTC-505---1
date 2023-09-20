@@ -120,11 +120,3 @@ private void Update()
 
 I've provided comprehensive documentation for my Unity LAB task. You can find all "Lab Task"-related documentation here [project's GitHub repository](https://github.com/tarik19x/IMTC-505-LAB).
 
-This repository serves as a centralized hub for all project-related documentation, ensuring that developers and contributors have access to the necessary resources for efficient project understanding and development.
-
-
-## Criteria 8: Upload Instructions
-
-![Upload Instructions](images/upload-instructions.png)
-
-Thank you for reviewing our Unity game project. Each criterion is documented with visual evidence to showcase our achievements and adherence to the assignment requirements.
