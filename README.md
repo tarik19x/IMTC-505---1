@@ -55,7 +55,9 @@ In pursuit of enhancing gameplay and adding uniqueness to my Unity game, I've ma
             transform.Rotate(Vector3.up * rotationSpeed * Time.deltaTime * 2);
 
         }
+```
 ## Criteria 5: Point Object Behaviors
+
 
 In line with the changes made to the behaviors of the game objects, here are the specific behaviors applied to individual objects:
 
@@ -72,6 +74,45 @@ These object-specific behaviors enhance gameplay dynamics, creating both visual 
 
 
 ## Criteria 6: Environment Behaviors
+
+In addition to enhancing the behaviors of individual objects, I've also added dynamic behaviors to objects within the game environment. One significant addition is the introduction of environmental objects that exhibit continuous rotation and color transitions, adding a dynamic and visually appealing aspect to the game world.
+
+The following code snippet demonstrates the behaviors applied to these environmental objects:
+
+```csharp
+// Environment Behaviors
+public float rotationSpeed = 30f;           // Adjust the rotation speed as needed.
+public float colorChangeInterval = 2f;      // Adjust the interval for color changes.
+public float colorChangeSpeed = 0.2f;       // Adjust the color change speed as needed.
+
+private Renderer prefabRenderer;
+private Color targetColor;
+private float timer = 0f;
+
+private void Start()
+{
+    prefabRenderer = GetComponentInChildren<Renderer>();
+    targetColor = prefabRenderer.material.color;
+}
+
+private void Update()
+{
+    // Rotate the object around its local Y-axis
+    transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
+
+    timer += Time.deltaTime;
+
+    if (timer >= colorChangeInterval)
+    {
+        // Change color every 'colorChangeInterval' seconds
+        timer = 0f;
+        targetColor = new Color(Random.value, Random.value, Random.value);
+    }
+
+    // Interpolate the color towards the target color
+    prefabRenderer.material.color = Color.Lerp(prefabRenderer.material.color, targetColor, colorChangeSpeed * Time.deltaTime);
+}
+```
 
 
 ## Criteria 7: Documentation
