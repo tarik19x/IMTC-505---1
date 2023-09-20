@@ -26,7 +26,7 @@ This thoughtful inclusion of additional assets enhances the immersive quality of
 
 In pursuit of enhancing gameplay and adding uniqueness to my Unity game, I've made two significant behavior modifications:
 
-1. **Single Coin Rotation and Aesthetic Improvements**:
+1. **Rotation and Aesthetic Improvements**:
    - For the Single Coin, I've introduced dynamic rotation, making it visually captivating as it spins elegantly.
    - Moreover, I've revamped the coin's appearance by altering its color and introducing a new 3D model. This refresh adds visual diversity and depth to my in-game currency.
 
@@ -34,8 +34,27 @@ In pursuit of enhancing gameplay and adding uniqueness to my Unity game, I've ma
    - To offer players a more rewarding experience, I've adjusted the scoring criteria for collecting a Coin Pile.
    - Previously, a player earned 10 points for collecting a pile of coins. Now, users will receive a substantial 50 points for successfully collecting a Coin Pile. This modification not only makes the game more engaging but also encourages players to seek out these valuable coin piles.
 
-These behavior enhancements contribute to an enriched gaming experience, making my Unity game more captivating and engaging.
+```csharp
+   // Single Coin Rotation and Aesthetic Improvements
+   public float rotationSpeed = 60.0f; // Adjust the rotation speed as needed.
+   
+   // Check if it's a Single Coin or Coin Pile
+   if (pile_or_Single == true)
+   {
+       points = 10;
+       
+       // Rotate the GameObject around its Y-axis.
+       // You can adjust the rotationSpeed as needed for a captivating effect.
+       transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
+       
+       pile_or_Single = false;
+   }
 
+   void Update()
+        {
+            transform.Rotate(Vector3.up * rotationSpeed * Time.deltaTime * 2);
+
+        }
 ## Criteria 5: Point Object Behaviors
 
 In line with the changes made to the behaviors of the game objects, here are the specific behaviors applied to individual objects:
@@ -54,7 +73,6 @@ These object-specific behaviors enhance gameplay dynamics, creating both visual 
 
 ## Criteria 6: Environment Behaviors
 
-![Environment Behaviors](images/environment-behaviors.png)
 
 ## Criteria 7: Documentation
 
