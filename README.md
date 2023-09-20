@@ -2,13 +2,13 @@
 
 These are the following criteria or points which are full-field for the LAB 1 assignment.
 
-## Criteria 1: Imported Assets from the mention .unitypackage
+## Criteria 1: Imported Assets from the mentioned .unitypackage
 
 ![Alt Text](https://res.cloudinary.com/dolt8nnzc/image/upload/v1695172810/image1_obbxxi.png)
 
 ## Criteria 2: Scene Setup
-
-![Scene Setup](images/scene-setup.png)
+Scene contains a GameObject with GameManager (eg. `GameManager prefab`) and atleast 10 GameObjects with GamePoint (eg. `PointsObject`) - 5 points
+![Alt Text](https://res.cloudinary.com/dolt8nnzc/image/upload/v1695173152/image2_jdx6it.png)
 
 ## Criteria 3: Additional Assets
 
