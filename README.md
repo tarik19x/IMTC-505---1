@@ -4,7 +4,7 @@ These are the following criteria or points which are full-field for the LAB 1 as
 
 ## Criteria 1: Imported Assets from the mention .unitypackage
 
-![Alt Text]([https://example.com/image-url.jpg](https://res.cloudinary.com/dolt8nnzc/image/upload/v1695172810/image1_obbxxi.png))
+![Alt Text](https://res.cloudinary.com/dolt8nnzc/image/upload/v1695172810/image1_obbxxi.png)
 
 ## Criteria 2: Scene Setup
 
