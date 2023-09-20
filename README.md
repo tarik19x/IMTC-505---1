@@ -56,6 +56,8 @@ In pursuit of enhancing gameplay and adding uniqueness to my Unity game, I've ma
 
         }
 ```
+
+
 ## Criteria 5: Point Object Behaviors
 
 
